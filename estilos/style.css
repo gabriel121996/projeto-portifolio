@@ -22,7 +22,6 @@
   --fundo-card: #ffffff;
 }
 body {
-  background-color: red;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.5em;
   border-color: var(--fundo-principal);
