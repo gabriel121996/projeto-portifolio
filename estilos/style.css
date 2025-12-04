@@ -279,6 +279,16 @@ footer a:hover {
     grid-column: 3 / 4;
   }
 
+  .video-container {
+  max-width: 740px;
+  max-height: 560px;
+}
+
+  .video-container iframe {
+  max-width: 740px;
+  max-height: 560px;
+}
+
   #projeto-container .projeto {
     flex-direction: row-reverse;
     justify-content: space-between;
