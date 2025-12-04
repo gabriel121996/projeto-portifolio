@@ -73,6 +73,7 @@ section#ficha {
   padding: 20px;
   border-radius: 8px;
   grid-column: 2;
+  
 }
 section#ficha img.foto  {
   width: 200px;
@@ -252,8 +253,20 @@ footer a:hover {
 
 
 @media screen and (min-width: 768px){
-  #skill-container {
-    grid-template-columns: 1fr 1fr;
+  main {
+    grid-template-columns: auto 300px 1fr auto;
+  }
+
+  section#ficha {
+    margin-bottom: 20px;
+   grid-column: 2 / 3;
+    height: fit-content;
+    position: sticky;
+    top: 65px;
+  }
+  
+  section#detalhes {
+    grid-column: 3 / 4;
   }
 
   #projeto-container .projeto {
